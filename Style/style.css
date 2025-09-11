@@ -1,0 +1,174 @@
+#logo {
+    text-align: center;
+}
+
+
+h1 { 
+    color: black; 
+    font-size: 2em; 
+    font-weight: bold; 
+    text-align: Right;
+}
+
+* { 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+* {
+    color: #162424;
+}
+
+h2 { 
+    color: #2279B2; 
+    font-weight: bold; 
+    font-size: 1.5em; 
+}
+
+h3 { 
+    color: #2279B2; 
+    font-weight: bold; 
+    font-size: 1em; 
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f4e95;
+    font-weight: 510;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.2em 0.9em;
+    margin: 0 3px;
+    border: 4px solid #EEEAE2;
+    border-radius: 8px;
+    background-color: #EEEAE2;
+    transition: transform 0.2s;
+}
+
+nav a:hover {
+    border-color: #2279b2;
+    transform: scale(1.1);
+    color: #298BB6;
+    background-color: #ffffff;
+}
+
+
+nav a:active {
+  color: #2f4e95;
+}
+
+footer {
+  background: #cacfe0;  
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .footerlinks {
+  padding: 20px;
+}
+
+footer .footerlinks a {
+  color: black;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+footer .footerbottom {
+  background: #1f4e95;   
+  color: white;          
+  padding: 15px;
+  text-align: center;
+}
+
+footer .footerbottom p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #EEEAE2;
+}
+.members dt {
+  display: flow-root;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #222;
+}
+
+.member-id {
+  float: right;
+  font-size: 0.9rem;
+  background: #e6f7fa;
+  border: 1px solid #b6e3ea;
+  color: #0b7285;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.members dd {
+  margin: 0 0 1rem 0;
+  padding-left: 0.5rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.team-figure {
+  margin: 1.5rem auto;
+  max-width: 900px;
+  border: 4px solid #222222;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.team-figure img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.team-figure figcaption {
+  padding: 0.6rem;
+  background: #f0f0f0;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+}
+
+table.funfacts {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+table.funfacts caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+  text-align: left;
+}
+
+table.funfacts thead th {
+  background: #0f172a;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+table.funfacts tbody td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+table.funfacts tbody tr:hover {
+  background: #ecfeff
+}
