@@ -418,3 +418,196 @@ table.funfacts tbody tr:hover {
   background: #ecfeff
 }
 /* about page css end */
+
+/* index page css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #ff1493;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #ff1493;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.4);
+    transform: scale(1.05);
+}
+
+hr {
+    border: 2px solid #ff1493;
+    margin: 20px 0;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #ff1493;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+/* Stats section */
+.stats {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.stats-grid {
+    display: flex; /* flex grid layout */
+    justify-content: space-around;
+    flex-wrap: wrap; /*allow item to go to the next line*/
+    gap: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    background-color: #1a1a2e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff1493;
+    min-width: 200px;
+}
+
+.stat-number {
+    display: block; /* allow the number to take its own line */
+    font-size: 2.5em;
+    color: #ff1493;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 1em;
+    color: white;
+}
+
+/* Services section */
+.services {
+    margin: 40px 0;
+}
+
+.services h2 {
+    color: #ff1493;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.service-card {
+    background-color: #16213e;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #ff1493;
+}
+
+.service-card h3 {
+    color: #ff1493;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #cccccc;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Company insights section */
+.company-insights {
+    background-color: #16213e;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 40px 0;
+}
+
+.company-insights h2 {
+    color: #ff1493;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.insight-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    border: 1px solid #ff1493;
+}
+
+.insight-item h3 {
+    color: #ff1493;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.insight-item p {
+    color: #cccccc;
+    text-align: left;
+    font-size: 1em;
+}
+/* index page css */
