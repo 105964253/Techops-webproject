@@ -12,7 +12,8 @@ description: custom font for webpages
 
 */
 
-@font-face {
+
+@font-face { /* font sourced from dafont.com - created by Astramat */
   font-family: 'Pixelade'; /* custom font added for nav and header styling */
   src: url(fonts/PIXELADE.TTF);
   font-weight: normal;
