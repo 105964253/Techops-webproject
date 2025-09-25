@@ -431,7 +431,7 @@ main p {
     flex-wrap: wrap; /*allow item to go to the next line*/
     gap: 20px;
 }
-
+ 
 .stat-item {
     text-align: center;
     background-color: #1a1a2e;

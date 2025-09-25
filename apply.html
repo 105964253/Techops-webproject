@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="styles/fonts.css">
 
   <style>
-        #summary {
+        #summary { /* embedded css example - all of which relates to the summary */
             background-color: #0a121c;
             border-radius: 16px;
             display: flex;
@@ -44,10 +44,10 @@
         <section id="althead"> <!-- alt header with black logo -->
             <a href="index.html"> <img src = "styles/images/phantompixellogo_black.png" id = "phantompixellogo" alt = "Phantom Pixel logo" width="125"></a> <!-- image generated with ChatGPT -->
             <nav>
-                <a class="altnav" href="index.html" style="font-family: Pixelade; font-size: 18px;">HOME</a>
-                <a class="altnav" href="jobs.html" style="font-family: Pixelade; font-size: 18px;">CAREERS</a>
+                <a class="altnav" href="index.html" style="font-family: Pixelade; font-size: 18px;">HOME</a> <!-- inline css examples -->
                 <a class="altnav" href="about.html" style="font-family: Pixelade; font-size: 18px;">ABOUT</a>
-                <a class="altnav" href=".footerlinks" style="font-family: Pixelade; font-size: 18px;">CONTACT</a>
+                <a class="altnav" href="jobs.html" style="font-family: Pixelade; font-size: 18px;">CAREERS</a>
+                <a class="altnav" href="apply.html" style="font-family: Pixelade; font-size: 18px;">APPLY NOW</a>
             </nav>
         </section>
     </header>
@@ -55,7 +55,7 @@
     <main id="applymain">
         <section id="summary"> <!-- short summary above the application form -->
             <div class="sumtext">
-                <h2 style="color: #ff3a95;">Thank you for your interest</h2>
+                <h2 style="color: #ff3a95;">Thank you for your interest</h2> <!-- inline css examples -->
                 <hr style="color: #ff3a95;">
                 <p style="color: #f3f3f1;">We greatly appreciate your interest in joining us at <span style="color: #ff3a95;">Phantom Pixel</span>. By applying, you are taking the first step toward becoming part of a team that values <strong>innovation</strong>, <strong>collaboration</strong>, <strong>creativity</strong> &amp; <strong>growth</strong>. To apply, please complete the form below.</p>
             </div>
@@ -71,7 +71,7 @@
 
                 <div id="jobreference">
                     <label for="jobref"><strong>Job Reference Number:  </strong></label>
-                    <input type="text" id="jobref" name="jobref" placeholder="Enter reference number" pattern="[A-Za-z0-9]{5}$" required>
+                    <input type="text" id="jobref" name="jobref" placeholder="Enter reference number" maxlength="5" pattern="[A-Za-z0-9]{5}" required>
                 </div>
 
                 <br>
@@ -79,14 +79,14 @@
                 <div id="personal">
 
                     <div id="firstname">
-                        <label for="firstN">First Name:  </label>  
+                        <label for="firstN">First Name:  </label> <!-- firstN used as id to style the input field seperately to the div --> 
                         <input type="text" id="firstN" name="firstname" placeholder="Enter your given name" maxlength="20" pattern="[A-Za-z]+" required>
                     </div>
 
                     <br>
                     
                     <div id="lastname">
-                        <label for="lastN">Last Name:  </label>
+                        <label for="lastN">Last Name:  </label> <!-- lastN used as id to style the input field seperately to the div -->
                         <input type="text" id="lastN" name="lastname" placeholder="Enter your family name" maxlength="20" pattern="[A-Za-z]+" required>
                     </div>
 
@@ -101,7 +101,7 @@
                         <legend>Gender</legend>
 
                         <input type="radio" id="gmale" name="gender" value="Male" required>
-                        <label for="gmale">Male</label>
+                        <label for="gmale">Male</label> <!-- id field include 'g' prefix for each option -->
 
                         <input type="radio" id="gfemale" name="gender" value="Female">
                         <label for="gfemale">Female</label>
@@ -119,7 +119,7 @@
                 <br>
 
                 <div id="address">
-                    <label class="formtitles">address</label>
+                    <label class="formtitles">address</label> <!-- formtitles class used for styling each title of each section -->
 
                     <div id="street">  
                         <label for="staddress"></label>
@@ -148,13 +148,13 @@
                 <div id="contacts">
                     <label class="formtitles">contact details</label>
 
-                    <div id="contactlabel">
+                    <div id="contactlabel"> <!-- top flexbox row div for contact -->
                         <label for="email">Email address*</label>
                         <label for="hnum">Home phone</label>
                         <label for="pnum">Mobile phone*</label>
                     </div>
 
-                    <div id="contactinput">
+                    <div id="contactinput"> <!-- bottom flexbox row div for contacts-->
                         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                         <input type="text" id="hnum" name="hnum" placeholder="Enter your home number" pattern="[0-9+]{8,12}$">
                         <input type="text" id="pnum" name="pnum" placeholder="Enter your mobile number" pattern="[0-9+]{8,12}$" required>
