@@ -611,3 +611,104 @@ main p {
     font-size: 1em;
 }
 /* index page css */
+
+/* About Page css start */
+.about-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+  margin-bottom: 15px;
+  border-left: 6px solid #ff3a95;
+  padding-left: 10px;
+}
+
+/* Team Contributions */
+.members dt {
+  font-weight: bold;
+  margin-top: 1.2rem;
+  color: #222;
+  display: flow-root;
+}
+
+.member-id {
+  float: right;
+  font-size: 0.85rem;
+  background: #ffe6f0;
+  border: 1px solid #ff3a95;
+  color: #651AE8;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.members dd {
+  margin: 0 0 1rem 0;
+  padding-left: 0.5rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Team Photo */
+.team-figure {
+  margin: 40px auto;
+  max-width: 900px;
+  border: 4px solid #651AE8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.team-figure img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.team-figure figcaption {
+  padding: 10px;
+  background: #f3f3f1;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+}
+
+/* Fun Facts Table */
+table.funfacts {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+table.funfacts caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #651AE8;
+  text-align: left;
+}
+
+table.funfacts thead th {
+  background: #ff3a95;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+table.funfacts tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table.funfacts tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+table.funfacts tbody tr:hover {
+  background: #ffe6f0;
+}
+/* About Page css ends */
