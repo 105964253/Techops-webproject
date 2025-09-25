@@ -20,10 +20,12 @@ body { /* prevents default 8px browser margin */
   background-color: #f3f3f1;
 }
 
+
 h1 { 
-    color: black; 
-    font-size: 2em; 
-    font-weight: bold;
+    color: #ff3a95; 
+    font-size: 2em;
+    text-align: center;
+    font-family: Pixelade;
 }
 
 * { 
@@ -339,86 +341,6 @@ h3 {
   /* form styling end */
 /* application page css end */
 
-/* about page css */
-.members dt {
-  display: flow-root;
-  font-weight: bold;
-  margin-top: 1rem;
-  color: #222;
-}
-
-.member-id {
-  float: right;
-  font-size: 0.9rem;
-  background: #e6f7fa;
-  border: 1px solid #b6e3ea;
-  color: #0b7285;
-  padding: 2px 8px;
-  border-radius: 4px;
-}
-
-.members dd {
-  margin: 0 0 1rem 0;
-  padding-left: 0.5rem;
-  color: #444;
-  line-height: 1.5;
-}
-
-.team-figure {
-  margin: 1.5rem auto;
-  max-width: 900px;
-  border: 4px solid #222222;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.team-figure img {
-  width: 100%;
-  display: block;
-  height: auto;
-}
-
-.team-figure figcaption {
-  padding: 0.6rem;
-  background: #f0f0f0;
-  font-style: italic;
-  text-align: center;
-  color: #333;
-}
-
-table.funfacts {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-  font-size: 0.95rem;
-}
-
-table.funfacts caption {
-  caption-side: top;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #1f2937;
-  text-align: left;
-}
-
-table.funfacts thead th {
-  background: #0f172a;
-  color: #ffffff;
-  font-weight: bold;
-  padding: 0.6rem;
-  text-align: left;
-}
-
-table.funfacts tbody td {
-  padding: 0.6rem;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-table.funfacts tbody tr:hover {
-  background: #ecfeff
-}
-/* about page css end */
-
 /* index page css */
 body {
     font-family: Arial, sans-serif;
@@ -682,20 +604,21 @@ table.funfacts caption {
   caption-side: top;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #651AE8;
-  text-align: left;
+  color: #000000;
+  text-align: center;
 }
 
 table.funfacts thead th {
-  background: #ff3a95;
-  color: #fff;
+  background: #ffffff;
+  color: #651AE8;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 table.funfacts tbody td {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
 table.funfacts tbody tr:nth-child(even) {
