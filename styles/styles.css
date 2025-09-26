@@ -350,19 +350,19 @@ body {
 }
 
 /* Header styling */
-header {
+#header01 {
     background-color: #16213e;
     padding: 20px;
     text-align: center;
 }
 
-header img {
+#header01 img {
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 /* Navigation styling */
-nav {
+#header01nav {
     background-color: #ff1493;
     padding: 15px;
     border-radius: 25px;
@@ -370,7 +370,7 @@ nav {
     max-width: 600px;
 }
 
-nav a {
+#header01nav a {
     color: black;
     text-decoration: none;
     padding: 10px 20px;
@@ -381,7 +381,7 @@ nav a {
     display: inline-block;
 }
 
-nav a:hover {
+#header01nav a:hover {
     background-color: rgba(255,255,255,0.4);
     transform: scale(1.05);
 }
