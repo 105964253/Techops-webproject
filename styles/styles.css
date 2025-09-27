@@ -342,7 +342,14 @@ h3 {
 /* application page css end */
 
 /* index page css */
-body {
+#indexbody 
+{
+    min-width: 800px;
+    background:url(Images/transitionfade.png) repeat-x bottom left;
+    background-size: cover; /* stretch the background image to cover the entire page */
+}
+
+#indexbody {
     font-family: Arial, sans-serif;
     background-color: #1a1a2e;
     color: white;
@@ -632,11 +639,20 @@ table.funfacts tbody tr:hover {
 
 /* jobs page css start */
 
-  .jobfield {
-    background-color: #f3f3f1;
-    border-radius: 16px;
-    padding: 40px;
-  }
+  #jobsbody main p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a121c;
+}
+
+  .jobfield { /* copied from about-section class*/
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
 
   .jobrefnum { /* copied from member-id class */
     text-align: center;
