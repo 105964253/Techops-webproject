@@ -351,14 +351,21 @@ h3 {
 
 #indexbody {
     font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
     color: white;
     line-height: 1.6;
 }
 
+#slogan {
+    font-family: Pixelade;
+    font-size: 3em;
+    color: #ff1493;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /* Header styling */
 #header01 {
-    background-color: #16213e;
     padding: 20px;
     text-align: center;
 }
@@ -536,6 +543,12 @@ main p {
 /* index page css */
 
 /* About Page css start */
+#header02 {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+}
+
 .about-section {
   background: #fff;
   padding: 20px;
