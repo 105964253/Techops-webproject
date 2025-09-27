@@ -629,3 +629,43 @@ table.funfacts tbody tr:hover {
   background: #ffe6f0;
 }
 /* About Page css ends */
+
+/* jobs page css start */
+
+  .jobfield {
+    background-color: #f3f3f1;
+    border-radius: 16px;
+    padding: 40px;
+  }
+
+  .jobrefnum { /* copied from member-id class */
+    text-align: center;
+    font-size: 20px;
+    background: #ffe6f0;
+    border: 1px solid #ff3a95;
+    color: #651AE8;
+    padding: 2px 8px;
+    border-radius: 8px;
+  }
+
+  .applybutton { /* styling used similar to nav */
+    display: inline-block;
+    font-family: Pixelade;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0.2em 0.9em;
+    margin: 0 10px;
+    border-radius: 8px;
+    color: white;
+    border-color: #ff3a95;
+    background-color: #ff3a95;
+    transition: transform 0.2s; /* sets time for transition specified in nav a:hover */
+  }
+
+  .applybutton:hover {
+    border-color: #651AE8;
+    transform: scale(1.1); /* scale effect for nav elements when hovering */
+    color: white;
+    background-color: #651AE8;
+  }
+/* jobs page css end */
