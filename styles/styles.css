@@ -345,7 +345,7 @@ h3 {
 #indexbody 
 {
     min-width: 800px;
-    background:url(Images/transitionfade.png) repeat-x bottom left;
+    background:url(Images/transitionfade.png) repeat-x bottom left; /* Image created from gen ai */
     background-size: cover; /* stretch the background image to cover the entire page */
 }
 
@@ -355,12 +355,21 @@ h3 {
     line-height: 1.6;
 }
 
-#slogan {
+#companytitle {
     font-family: Pixelade;
     font-size: 3em;
     color: #ff1493;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+#slogan {
+    font-family: Pixelade;
+    font-size: 3em;
+    color: #ff1493;
+    margin-top: 10px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -379,7 +388,7 @@ h3 {
 #header01nav {
     background-color: #ff1493;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 25px; 
     margin: 20px auto;
     max-width: 600px;
 }
@@ -397,9 +406,10 @@ h3 {
 
 #header01nav a:hover {
     background-color: rgba(255,255,255,0.4);
-    transform: scale(1.05);
+    transform: scale(1.05); /* enlarges the nav button by 5 percent */
 }
 
+/* Make the horizontal line pink and thicker */
 hr {
     border: 2px solid #ff1493;
     margin: 20px 0;
@@ -479,10 +489,11 @@ main p {
     margin-bottom: 30px;
 }
 
+/* Learnt grid layout through https://css-tricks.com/snippets/css/complete-guide-grid/ */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Makes the grid auto fit themself in order of a 300px minimum size */
+    gap: 20px; /* Ensure the gaps between the grids are 20px */
     padding: 20px 0;
 }
 
