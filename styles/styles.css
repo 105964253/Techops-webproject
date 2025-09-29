@@ -6,7 +6,7 @@ author: G01
 
 created: 01/09/2025
 
-last modified: 22/09/2025
+last modified: 27/09/2025
 
 description: styles.css for index/apply/about/jobs .html
 
@@ -155,6 +155,7 @@ h3 {
       background-color: #0a121c;
       border-radius: 16px;
       padding: 40px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
     }
 
     #jobreference {
